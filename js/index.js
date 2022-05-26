@@ -141,8 +141,8 @@ const btnAumentarDisminuir = e => {
     e.stopPropagation()
 }
 
-const touch = document.getElementById('touch');
+//const touch = document.getElementById('touch');
 
-touch.addEventListener('click',()=>{
-    alert('Proximamente implementado... Gracias!');
-})
+//touch.addEventListener('click',()=>{
+//    alert('Proximamente implementado... Gracias!');
+//})
