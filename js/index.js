@@ -144,5 +144,5 @@ const btnAumentarDisminuir = e => {
 const touch = document.getElementById('touch');
 
 touch.addEventListener('click',()=>{
-    alert('Proximamente implementado... Gracias!');
+    alert('Próximamente implementado... Gracias!');
 })

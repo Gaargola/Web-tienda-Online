@@ -1,36 +1,36 @@
 [
     {
-      "precio": 250,
+      "precio": "$250",
       "id": 1,
       "title": "Camisa",
       "thumbnailUrl": "https://www.suministroslaborales.com/5915-thickbox_default/camisa-de-manga-larga-con-cierre-de-botones-b8200-workteam.jpg"
     },
     {
-      "precio": 700,
+      "precio": "$700",
       "id": 2,
-      "title": "Pantalon",
+      "title": "Pantalón",
       "thumbnailUrl": "https://www.atoamotos.com/img/p/6/2/7/2/8/62728-large_default.jpg"
     },
     {
-      "precio": 500,
+      "precio": "$500",
       "id": 3,
-      "title": "zapatilla",
-      "thumbnailUrl": "https://www.casasclub.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/4/1/41542017_57_b.jpg"
+      "title": "Zapatilla",
+      "thumbnailUrl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F3.bp.blogspot.com%2F-AOOHcPfGTk0%2FV2AU6e4v_WI%2FAAAAAAAAACs%2F18tglpKllZk8znIyIrMiuoZANcL7d9iLACKgB%2Fs1600%2Fzapatillas-led-bluoko-w-01-talla-1320236-4_ad_l.png&f=1&nofb=1&ipt=07d70965c572fe0184339ece719ab3c3d311c95a11740ce07b2443eb0c421602&ipo=images"
     },
     {
-      "precio": 300,
+      "precio": "$300",
       "id": 4,
-      "title": "Pantalon",
+      "title": "Pantalón",
       "thumbnailUrl": "https://www.motomundi.cl/Content/products/1/4/ea/4ea3756373a548bf8a7707841b1d8889_org.jpg"
     },
     {
-      "precio": 600,
+      "precio": "$600",
       "id": 5,
       "title": "Zapatilla",
       "thumbnailUrl": "https://www.lapolar.cl/dw/image/v2/BCPP_PRD/on/demandware.static/-/Sites-master-catalog/default/dw74fdaae3/images/large/453417-negro.jpg?sw=1200&sh=1200&sm=fit"
     },
     {
-      "precio": 750,
+      "precio": "$750",
       "id": 6,
       "title": "Camisa",
       "thumbnailUrl": "https://http2.mlstatic.com/camisa-blusa-social-masculina-premium-luxo-slim-fit-top-5045-D_NQ_NP_781512-MLB40115966322_122019-F.jpg"

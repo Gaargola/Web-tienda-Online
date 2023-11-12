@@ -1,31 +1,112 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .dropdown-container {
-    position: relative;
+  position: relative;
 }
 
 .dropdown-container ul {
-    position: absolute;
-    max-height: 0px;
-    overflow: hidden;
+  position: absolute;
+  max-height: 0px;
+  overflow: hidden;
 }
 
 .dropdown-container:hover ul {
-    max-height: 400px;
+  max-height: 400px;
 }
 
 .title {
-    text-align: center;
+  text-align: center;
 }
 
 .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 200px;
+  background-color: black;
+}
+
+.footer-content h2,
+.sotial-network i {
+  text-align: center;
+  color: #fff;
+  font-size: 3em;
+}
+
+.footer-content h5 {
+  text-align: center;
+  color: #fff;
+  font-size: 1em;
+}
+
+.sotial-network {
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  margin-top: 1em;
+}
+
+.enlaces a {
+  outline: none;
+  text-decoration: none;
+}
+
+#cards {
+  justify-content: space-evenly;
+}
+
+.card {
+  margin: 2em 2em 4em;
+}
+.card-body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.btn{
+  margin-top: auto;
+}
+.card-body h5 {
+  text-align: center;
+}
+h5{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+p{
+  text-align: center;
+}
+.imagen-producto {
+  max-height: 250px;
+  max-width: 500px;
+}
+
+#inic h1 {
+  margin-top: 10px;
+}
+
+@media (max-width: 700px) {
+  .card {
+    margin: 1em 1em 4em;
+  }
+
+  .container h4 {
+    text-align: center;
+  }
+  header {
+    padding: 0 -1em 0;
+  }
+  .footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,118 +114,49 @@ body {
     width: 100vw;
     height: 200px;
     background-color: black;
-}
+  }
 
-.footer-content h2,
-.sotial-network i {
+  .footer-content h2,
+  .sotial-network i {
     text-align: center;
     color: #fff;
     font-size: 3em;
-}
+  }
 
-.footer-content h5 {
+  .footer-content h5 {
     text-align: center;
     color: #fff;
     font-size: 1em;
-}
+  }
 
-.sotial-network {
+  .sotial-network {
     display: flex;
     justify-content: space-evenly;
-    width: 300px;
+    width: 200px;
     margin-top: 1em;
-}
+  }
 
-.enlaces a {
-    outline: none;
-    text-decoration: none;
-}
+  .items {
+    display: flex;
+    flex-direction: column;
+    margin: 13%;
+    margin-top: 2em;
+    font-size: 5em;
+  }
 
-#cards {
-    justify-content: space-evenly;
-}
+  .items i {
+    margin: 13%;
+  }
 
-.card {
-    margin: 2em 2em 4em;
-}
+  .items2 {
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+    margin-top: 2em;
+    font-size: 5em;
+  }
 
-.card-body h5 {
-    text-align: center;
-}
-
-.imagen-producto {
-    max-height: 250px;
-    max-width: 500px;
-}
-
-#inic h1 {
-    margin-top: 10px;
-}
-
-
-@media (max-width:700px) {
-    .card {
-        margin: 1em 1em 4em;
-    }
-
-    .container h4 {
-        text-align: center;
-    }
-    header{
-        padding: 0 -1em 0;
-    }
-
-    .footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100vw;
-        height: 200px;
-        background-color: black;
-    }
-
-    .footer-content h2,
-    .sotial-network i {
-        text-align: center;
-        color: #fff;
-        font-size: 3em;
-    }
-
-    .footer-content h5 {
-        text-align: center;
-        color: #fff;
-        font-size: 1em;
-    }
-
-    .sotial-network {
-        display: flex;
-        justify-content: space-evenly;
-        width: 200px;
-        margin-top: 1em;
-    }
-
-    .items {
-        display: flex;
-        flex-direction: column;
-        margin: 13%;
-        margin-top: 2em;
-        font-size: 5em;
-    }
-
-    .items i {
-        margin: 13%;
-    }
-
-    .items2 {
-        display: flex;
-        flex-direction: column;
-        margin: 10%;
-        margin-top: 2em;
-        font-size: 5em;
-    }
-
-    .items2 i {
-        margin: 13%;
-    }
+  .items2 i {
+    margin: 13%;
+  }
 }
